@@ -4,12 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Vuejs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+  <link rel="stylesheet" href="app.css">
+  <title>Vuejs Interpolation</title>
 </head>
 <body>
 
   <div id="app">
 
+    <div class="container">
+      <div class="card card-sm is-medium">
+         <div class="card-image">
+           <figure class="image is-4by3">
+             <img src="http://lorempixel.com/1200/960/animals/" alt="Placeholder image">
+           </figure>
+         </div>
+         <div class="card-content">
+           <div class="media">
+             <div class="media-left">
+               <figure class="image is-48x48">
+                 <img src="https://placeimg.com/96/96/people" alt="Placeholder image">
+               </figure>
+             </div>
+             <div class="media-content">
+               <p class="title is-4">John Smith</p>
+               <p class="subtitle is-6">@johnsmith</p>
+             </div>
+           </div>
+
+           <div class="content">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+             <a href="#">#css</a> <a href="#">#responsive</a>
+             <br>
+             <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+           </div>
+         </div>
+     </div>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.11/vue.js" charset="utf-8"></script>
